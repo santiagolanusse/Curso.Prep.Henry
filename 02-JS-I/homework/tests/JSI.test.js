@@ -36,6 +36,7 @@ const {
 } = require('../homework.js');
 
 describe('nuevaString', function() {
+  console.log("jaja", nuevaString)
   it('Deberia ser un string', function() {
     expect(typeof nuevaString).toBe('string');
   });
